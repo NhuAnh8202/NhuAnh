@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0889b67e-4cd5-4730-82ae-8886b74434e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/52410497_989939821198203_1966593682920439808_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/70981423_1137136349811882_3404617676436275200_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/71058259_1137133169812200_5860342404191617024_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Website wallpaper  2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hieu-ung-tuyet-roi-giang-sinh-cho-website.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/ip5-a5f7a.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/tooplate-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/tooplate-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/tab.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/about.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/baitap.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/design.html" beforeDir="false" />
@@ -40,7 +33,7 @@
   <component name="ProjectId" id="1RP9lWwBuYcJk6uUIQLoeQt0H2N" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -50,6 +43,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\WebstormProjects\GTNM\NhuAnh\assets\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\WebstormProjects\GTNM\NhuAnh\assets\images" />
     </key>
@@ -81,7 +77,9 @@
       <workItem from="1569604036283" duration="457000" />
       <workItem from="1569604950654" duration="34000" />
       <workItem from="1569637111986" duration="3968000" />
-      <workItem from="1569642394674" duration="16360000" />
+      <workItem from="1569642394674" duration="17142000" />
+      <workItem from="1569665020797" duration="857000" />
+      <workItem from="1569666464512" duration="411000" />
     </task>
     <servers />
   </component>
