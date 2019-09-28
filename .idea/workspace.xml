@@ -2,6 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0889b67e-4cd5-4730-82ae-8886b74434e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/01-Uvala-1002_fotoAdria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/20190802164322-799f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/9780553212419.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Sunset-on-Oahu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/TWICE_Feel_Special_group_promo_photo_(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avabptw-1565280684434840095032-crop-1565280691799984652000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/b2XGwsz-674x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hat-giong-tam-hon-tap-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hinh-1-15642268253151166453935.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/image3-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/nu-than-yoona-dspl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/snsd-1554397716444416582883-crop-15694271293201828472216.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/twice-members-filter-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/tải xuống.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/unnamed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/yoona-snsd-skin-secr-a56c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/tab.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -33,6 +50,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\WebstormProjects\GTNM\NhuAnh\assets\images" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -59,7 +81,7 @@
       <workItem from="1569597327054" duration="5945000" />
       <workItem from="1569604036283" duration="457000" />
       <workItem from="1569604950654" duration="34000" />
-      <workItem from="1569637111986" duration="318000" />
+      <workItem from="1569637111986" duration="3968000" />
     </task>
     <servers />
   </component>
