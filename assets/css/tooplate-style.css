@@ -14,13 +14,13 @@ body {
 }
 
 #page-wraper {
-    background: #4AA0DD no-repeat center center fixed;
+    background: #1a537b no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    background-image: url("...\assets\images\Website wallpaper 2.jpg") ;
+
 }
 
 
@@ -65,6 +65,7 @@ ul {
     padding: 0;
     margin: 0;
     list-style: none;
+    padding-left: 50px;
 }
 
 ul li {
@@ -118,6 +119,7 @@ html {
 
 .main-nav li {
     display: block;
+    width: 180px;
 }
 
 .main-nav li a {
@@ -838,4 +840,456 @@ ul li {
     bottom: 270px;
     font-weight: bold;
     left: 300px;
+}
+#container1 {
+    width: 920px;
+    height: 465px;
+    background: #C4C4C4;
+
+}
+#container1 #content1 {
+    height: 80px;
+    color: black;
+    background: #847979;
+    font-size: 33px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+#container1 #content2 {
+    height: 120px;
+}
+#container1 #content2 .them{
+    float: left;
+    background: #6299B3;
+    color: black;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+#container1 #content2 .timkiem{
+    float: right;
+    color: black;
+    margin-top: 55px;
+    margin-right: 50px;
+
+}
+#container1 #content2 .timkiem>p{
+    float: left;
+    color: black;
+    margin-right: 20px;
+
+}
+#container1 #content2 .timkiem .rong{
+    float: left;
+    width: 30px;
+    background: #EAE5E3;
+    border-left: 1px black solid;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+}
+#container1 #content2 .timkiem .text-tim{
+    float: right;
+    border: 1px black solid;
+    width: 220px;
+    background: #EAE5E3;
+
+
+}
+
+#container1 #content3 .row1 {
+    color: black;
+    font-family: Arial;
+
+}
+.row1_colum1{
+    float: left;
+    border: 1px black solid;
+    width: 230px;
+    height: 65px ;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+
+}
+.row1_colum2 {
+    float: left;
+    border: 1px black solid;
+    width: 100px;
+    height: 65px ;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+
+
+}
+.row1_colum3 {
+    float: left;
+    border: 1px black solid;
+    width: 150px;
+    height: 65px ;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+
+}
+.row1_colum4 {
+    float: left;
+    border: 1px black solid;
+    width: 120px;
+    height: 65px ;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+
+}
+.row1_colum5 {
+    float: left;
+    border: 1px black solid;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 65px ;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+
+}
+.row1_colum6 {
+    float: right;
+    border: 1px black solid;
+    width: 170px;
+    height: 65px ;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+
+}
+.row2{
+    color: black;
+
+}
+.row2_colum1{
+    float: left;
+    border: 1px black solid;
+    width: 230px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row2_colum2 {
+    float: left;
+    border: 1px black solid;
+    width: 100px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+
+}
+.row2_colum3 {
+    float: left;
+    border: 1px black solid;
+    width: 150px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row2_colum4 {
+    float: left;
+    border: 1px black solid;
+    width: 120px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row2_colum5 {
+    float: left;
+    border: 1px black solid;
+    width: 150px;
+    padding-left: 10px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row2_colum6 {
+    float: right;
+    border: 1px black solid;
+    width: 170px;
+    height: 50px ;
+
+}
+.row2_colum6 .sua {
+    float: left;
+    height: 35px;
+    width: 50px;
+    padding: 0px;
+    margin-top: 7px;
+    margin-left: 20px;
+
+}
+
+.row2_colum6 .xoa{
+    float: right;
+    height: 35px;
+    width: 50px;
+    padding: 0px;
+    margin-top: 7px;
+    margin-right: 20px;
+}
+.row3{
+    color: black;
+
+}
+.row3_colum1{
+    float: left;
+    border: 1px black solid;
+    width: 230px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row3_colum2 {
+    float: left;
+    border: 1px black solid;
+    width: 100px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+
+}
+.row3_colum3 {
+    float: left;
+    border: 1px black solid;
+    width: 150px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row3_colum4 {
+    float: left;
+    border: 1px black solid;
+    width: 120px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row3_colum5 {
+    float: left;
+    border: 1px black solid;
+    width: 150px;
+    padding-left: 10px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row3_colum6 {
+    float: right;
+    border: 1px black solid;
+    width: 170px;
+    height: 50px ;
+
+}
+.row3_colum6 .sua {
+    float: left;
+    height: 35px;
+    width: 50px;
+    padding: 0px;
+    margin-top: 7px;
+    margin-left: 20px;
+
+}
+
+.row3_colum6 .xoa{
+    float: right;
+    height: 35px;
+    width: 50px;
+    padding: 0px;
+    margin-top: 7px;
+    margin-right: 20px;
+
+}
+.row4{
+    color: black;
+
+}
+.row4_colum1{
+    float: left;
+    border: 1px black solid;
+    width: 230px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row4_colum2 {
+    float: left;
+    border: 1px black solid;
+    width: 100px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+
+}
+.row4_colum3 {
+    float: left;
+    border: 1px black solid;
+    width: 150px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row4_colum4 {
+    float: left;
+    border: 1px black solid;
+    width: 120px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row4_colum5 {
+    float: left;
+    border: 1px black solid;
+    width: 150px;
+    padding-left: 10px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row4_colum6 {
+    float: right;
+    border: 1px black solid;
+    width: 170px;
+    height: 50px ;
+
+}
+.row4_colum6 .sua {
+    float: left;
+    height: 35px;
+    width: 50px;
+    padding: 0px;
+    margin-top: 7px;
+    margin-left: 20px;
+
+}
+
+.row4_colum6 .xoa{
+    float: right;
+    padding: 0px;
+    height: 35px;
+    width: 50px;
+    margin-top: 7px;
+    margin-right: 20px;
+
+}
+.row5{
+    color: black;
+
+}
+.row5_colum1{
+    float: left;
+    border: 1px black solid;
+    width: 230px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row5_colum2 {
+    float: left;
+    border: 1px black solid;
+    width: 100px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+
+}
+.row5_colum3 {
+    float: left;
+    border: 1px black solid;
+    width: 150px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row5_colum4 {
+    float: left;
+    border: 1px black solid;
+    width: 120px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row5_colum5 {
+    float: left;
+    border: 1px black solid;
+    width: 150px;
+    padding-left: 10px;
+    height: 50px ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.row5_colum6 {
+    float: right;
+    border: 1px black solid;
+    width: 170px;
+    height: 50px ;
+
+}
+.row5_colum6 .sua {
+    float: left;
+    height: 30px;
+    width: 60px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.row5_colum6 .xoa{
+    float: right;
+    padding: 0px;
+    height: 30px;
+    width: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+
 }
