@@ -299,9 +299,9 @@ html {
 
 .section {
     color: #fff;
-    width: 50%;
-    right: 10%;
-    left: 35%;
+    width: 70%;
+    right: 25%;
+    left: 30%;
     position: relative;
     padding-bottom: 100px;
     padding-top: 100px;
@@ -312,7 +312,7 @@ html {
     color: #fff;
     width: 50%;
 
-    left: 35%;
+    left: 20%;
     position: relative;
     padding-bottom: 100px;
     padding-top: 100px;
@@ -1410,6 +1410,27 @@ ul li {
 .downAll{
     position: absolute;
     bottom: 150px;
-    margin-left: 200px;
+    right: 100px;
+    width: 200px;
+    height: 80px;
 }
 
+.down{
+    position: absolute;
+    right: 150px;
+    top: 800px;
+}
+.down1{
+    position: absolute;
+    right: 150px;
+    top: 1600px;
+}
+.img1{
+    width: 800px;
+    height: 900px;
+}
+.img2{
+    width: 800px;
+    height: 550px;
+
+}
