@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0889b67e-4cd5-4730-82ae-8886b74434e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/17130008_design_lab2.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/-set-izone-2nd-mini-album-heartiz-set-ver-2cd-2poster.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/vetay_lab2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1.fig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2.fig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1713008_design_lab1.rar" beforeDir="false" afterPath="$PROJECT_DIR$/17130008_design_lab1.rar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/tooplate-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/tooplate-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/71117460_2404841116438846_1347474735612559360_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/vetay_lab1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,7 +79,7 @@
       <workItem from="1570020051857" duration="1687000" />
       <workItem from="1570071394013" duration="226000" />
       <workItem from="1570535113253" duration="9289000" />
-      <workItem from="1570620371329" duration="12039000" />
+      <workItem from="1570620371329" duration="12532000" />
     </task>
     <servers />
   </component>
