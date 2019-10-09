@@ -348,7 +348,7 @@ button {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     transition: all 0.5s;
-    border: none;
+
     outline: none;
     cursor: pointer;
 }
@@ -1405,32 +1405,5 @@ ul li {
     float: right;
     margin-right: 80px;
     margin-top: 20px;
-
-}
-.downAll{
-    position: absolute;
-    bottom: 150px;
-    right: 100px;
-    width: 200px;
-    height: 80px;
-}
-
-.down{
-    position: absolute;
-    right: 150px;
-    top: 800px;
-}
-.down1{
-    position: absolute;
-    right: 150px;
-    top: 1600px;
-}
-.img1{
-    width: 800px;
-    height: 900px;
-}
-.img2{
-    width: 800px;
-    height: 550px;
 
 }
