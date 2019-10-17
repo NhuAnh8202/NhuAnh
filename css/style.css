@@ -9222,7 +9222,7 @@ textarea.form-control {
   padding-right: 10px;
   height: 65px ;
   text-align: center;
-  padding-top: 15px;
+
   font-size: 18px;
 
 }
@@ -9627,7 +9627,7 @@ textarea.form-control {
   margin-top: 13px;
 }
 #container4 {
-  height: 250px;
+  height: 270px;
   width: 350px;
   background: #C4C4C4;
   color: black;
