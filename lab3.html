@@ -8,6 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
 
@@ -63,82 +67,68 @@
     </div>
 </div>
 
-<div class="container" style="margin-bottom: 150px">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="tab" role="tabpanel">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" ><a href="lab1.html" aria-controls="home" role="tab"  style="font-size: 12px" >Lab_1</a></li>
+                    <li role="presentation"  style="margin-left:0px; "><a href="lab2.html" aria-controls="profile" role="tab" style="font-size: 12px"  >Lab_2</a></li>
+                    <li role="presentation" class="active" style="margin-left:0px "><a href="lab3.html" aria-controls="messages" role="tab"  style="font-size: 12px" >Lab_3</a></li>
+                    <li role="presentation" style="margin-left:0px "><a href="lab4.html" aria-controls="messages" role="tab"  style="font-size: 12px" >Lab_4</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content tabs">
+                    <div role="tabpanel" class="tab-pane fade in active show" id="lab3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="tab" role="tabpanel">
+                                        <ul class="nav nav-tabs" role="tablist">
+                                            <li role="presentation" class="active" style="margin-left:0px; "><a href="#requirement" aria-controls="profile" role="tab" data-toggle="tab"  style="font-size: 12px"  >Requirement</a></li>
+                                            <li role="presentation"  style="margin-left:0px; "><a href="exercise1.html" aria-controls="profile" role="tab"  style="font-size: 12px"  >Exercise_1</a></li>
+                                            <li role="presentation" style="margin-left:0px "><a href="exercise2.html" aria-controls="messages" role="tab"    style="font-size: 12px" >Exercise_2</a></li>
+                                        </ul>
+                                        <!-- Tab panes -->
+                                        <div class="tab-content tabs">
 
-    <div class="section-heading" role="tablist"> <br>
-        <ul class="nav nav-tabs">
-            <li  ><a  href="lab1.html">Lab1</a></li>
-            <li><a  href="lab2.html">Lab2</a></li>
-            <li class="active"><a  href="lab3.html">Lab3</a></li>
-            <li><a  href="lab4.html">Lab4</a></li>
-        </ul>
+                                            <div role="tabpanel" class="tab-pane fade in active show" id="requirement" style="width: 880px">
+                                                <h3 style="font-family: Arial">Requirement</h3>
+                                                <p>Trong menu Labs, tạo 1 menu Lab3(File lab3.html) sau đó tạo 2 tab Ex1, Ex2.</p>
+                                                <p><span style="font-weight: bold">Ex1:</span> Thiết kế 1 trang web đơn giản sử dụng mẫu F-pattern ==> chuyển sang html(Ex1.html)</p>
+                                                <p><span style="font-weight: bold">Ex2:</span> Thiết kế 1 trang web đơn giản sử dụng mẫu Z-pattern ==> chuyển sang html(Ex2.html)</p><br>
+                                                <p>Với cả <span>Ex1 Ex2:</span>Tạo 2 tab Design và Implementation:</p>
+                                                <p><span style="font-weight: bold">Design: </span>chụp hình ảnh để có cái nhìn tổng quan về file thiết kế, có nút download để download file thiết kế về nếu muốn. </p>
+                                                <p>Implementation: nội dung phần hiện thực lên html.</p>
+                                                <br>
+                                                <p>Uplaod lên Azure/Github</p>
 
-        <div class="tab-content">
+
+                                                    </div>
+                                                </div>
 
 
-            <div id="lab3" class="tab-pane fade in active show">
-                <div class="content">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="active" >
-                            <a data-toggle="tab" href="#requirement3">Requirement</a>
-                        </li>
-                        <li><a  href="exercise1.html">Exercise_1</a></li>
-                        <li><a  href="exercise2.html">Exercise_2</a></li>
-                    </ul>
-                    <div class="tab-content">
-                        <div id="requirement3" class="tab-pane fade active show"><br>
-                            <h3>Requirement_Lab3</h3>
-                            <p></p>
-                        </div>
-                        <div id="exercise_1" class="tab-pane fade "><br><br>
-                            <h3>Exercise_1</h3>
-                            <ul class="nav nav-tabs" role="tablist">
-                                <li class="active" >
-                                    <a data-toggle="tab" href="#design_ex_1">Design</a>
-                                </li>
-                                <li><a data-toggle="tab" href="#implement_ex_1">Implement</a></li>
 
-                            </ul>
-                            <div class="tab-content">
-                                <div id="design_ex_1" class="tab-pane fade "><br>
-                                    <h3>Design_ex_1</h3>
-                                    <p></p>
+
+
+                                            </div>
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div id="implement_ex_1" class="tab-pane fade "><br>
-                                    <h3>Implement_ex_1</h3>
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="exercise_2" class="tab-pane fade"><br><br>
-                            <h3>Exercise_2</h3>
-                            <ul class="nav nav-tabs" role="tablist">
-                                <li class="active" >
-                                    <a data-toggle="tab" href="#design_ex_2">Design</a>
-                                </li>
-                                <li><a data-toggle="tab" href="#implement_ex_2">Implement</a></li>
+                </div>
 
-                            </ul>
-                            <div class="tab-content">
-                                <div id="design_ex_2" class="tab-pane fade "><br>
-                                    <h3>Design_ex_2</h3>
-                                    <p></p>
-                                </div>
-                                <div id="implement_ex_2" class="tab-pane fade "><br>
-                                    <h3>Implement_ex_2</h3>
-                                    <p></p>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
 
 
-        </div>
-
-    </div>
-</div>
 
 
 

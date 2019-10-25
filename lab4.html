@@ -7,6 +7,9 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -63,48 +66,69 @@
     </div>
 </div>
 
-<div class="container" style="margin-bottom: 150px">
 
-    <div class="section-heading" role="tablist"> <br>
-        <ul class="nav nav-tabs">
-            <li  ><a  href="lab1.html">Lab1</a></li>
-            <li><a  href="lab2.html">Lab2</a></li>
-            <li><a  href="lab3.html">Lab3</a></li>
-            <li class="active"><a  href="lab4.html">Lab4</a></li>
-        </ul>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="tab" role="tabpanel">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#lab1" aria-controls="home" role="tab"  style="font-size: 12px" >Lab_1</a></li>
+                    <li role="presentation" style="margin-left:0px; "><a href="lab2.html" aria-controls="profile" role="tab" style="font-size: 12px"  >Lab_2</a></li>
+                    <li role="presentation" style="margin-left:0px "><a href="lab3.html" aria-controls="messages" role="tab"  style="font-size: 12px" >Lab_3</a></li>
+                    <li role="presentation" style="margin-left:0px "><a href="lab4.html" aria-controls="messages" role="tab"  style="font-size: 12px" >Lab_4</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content tabs">
+                    <div role="tabpanel" class="tab-pane fade in active show" id="lab1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="tab" role="tabpanel">
+                                        <ul class="nav nav-tabs" role="tablist">
+                                            <li role="presentation" class="active"><a href="#requirement1" aria-controls="home" role="tab" data-toggle="tab"  style="font-size: 12px" >Requirement</a></li>
+                                            <li role="presentation" style="margin-left:0px; "><a href="#design1" aria-controls="profile" role="tab" data-toggle="tab"  style="font-size: 12px"  >Design</a></li>
+                                            <li role="presentation" style="margin-left:0px "><a href="#implement1" aria-controls="messages" role="tab" data-toggle="tab"   style="font-size: 12px" >Implement</a></li>
+                                        </ul>
+                                        <!-- Tab panes -->
+                                        <div class="tab-content tabs">
+                                            <div role="tabpanel" class="tab-pane fade in active show" id="requirement1">
+                                                <h3 style="font-family: Arial">Requirement</h3>
+                                                <
 
-        <div class="tab-content">
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane fade" id="design1">
+                                                <h3 style="font-family: Arial">Design</h3>
 
-            <div id="Lab4" class="tab-pane fade in active show">
-                <div class="content">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="active" >
-                            <a data-toggle="tab" href="#requirement4">Requirement</a>
-                        </li>
-                        <li><a data-toggle="tab" href="#design4">Design</a></li>
-                        <li><a data-toggle="tab" href="#implement4">Implement</a></li>
-                    </ul>
-                    <div class="tab-content">
-                        <div id="requirement4" class="tab-pane fade active show">
-                            <h3>Requirement_Lab4</h3>
-                            <p></p>
+
+                                                </button>
+
+
+
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane fade " id="implement1">
+                                                <h3 style="font-family: Arial">Implement</h3>
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div id="design4" class="tab-pane fade">
-                            <h3>Desig_Lab4</h3>
-                            <p></p>
-                        </div>
-                        <div id="implement4" class="tab-pane fade">
-                            <h3>Implement_Lab4</h3>
-                            <p> </p>
-                        </div>
+
                     </div>
+
                 </div>
             </div>
-
         </div>
-
     </div>
 </div>
+
+
+
 
 
 
