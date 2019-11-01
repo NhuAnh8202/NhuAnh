@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -76,7 +76,7 @@
                     <li role="presentation" ><a href="lab1.html" aria-controls="home" role="tab"  style="font-size: 12px" >Lab_1</a></li>
                     <li role="presentation" style="margin-left:0px; "><a href="lab2.html" aria-controls="profile" role="tab" style="font-size: 12px"  >Lab_2</a></li>
                     <li role="presentation" style="margin-left:0px "><a href="lab3.html" aria-controls="messages" role="tab"  style="font-size: 12px" >Lab_3</a></li>
-                    <li role="presentation" class="active" style="margin-left:0px "><a href="lab4.html" aria-controls="messages" role="tab"  style="font-size: 12px" >Lab_4</a></li>
+                    <li role="presentation"  class="active" style="margin-left:0px "><a href="lab4.html" aria-controls="messages" role="tab"  style="font-size: 12px" >Lab_4</a></li>
                 </ul>
                 <!-- Tab panes -->
                 <div class="tab-content tabs">
@@ -94,20 +94,233 @@
                                         <div class="tab-content tabs">
                                             <div role="tabpanel" class="tab-pane fade in active show" id="requirement1">
                                                 <h3 style="font-family: Arial">Requirement</h3>
-                                                <
+                                                1. Tạo một trang Web có nội dung bất kỳ, sử dụng linh hoạt tất cả
+                                                những phần sau: Input Controls, Navigation, Animations, Default
+                                                Settings, Guided Actions <br>
+                                                Có biểu mẫu liên hệ
+
+
 
                                             </div>
                                             <div role="tabpanel" class="tab-pane fade" id="design1">
                                                 <h3 style="font-family: Arial">Design</h3>
+                                                <img src="images/vetay_lab4.jpg" class="img1" style="float: left;height: 300px; width: 500px;margin-bottom: 30px"><br>
 
+                                                <img src="images/Screenshot%20(2).png" class="img1"  style=";height: 400px; width: 500px" />
+                                                <img src="images/Screenshot%20(3).png" class="img2" style=";height: 400px; width: 500px"/>
+
+                                                <button class="down1" type="button" style="float: right;margin-top: -600px;margin-right: 300px"><a href="images/vetay_lab4.jpg"
+                                                                                                                                                   download="images/vetay_lab4.jpg">Download</a></button>
+
+                                                <button class="down3" type="button" style="float: right; margin-right: 300px"><a href="lab4.fig"
+                                                                                                                                 download="lab4.fig">Download</a> </button>
+
+
+                                                <button class="downAll" type="button" style="float: right;margin-right: 470px;height: 50px;width: 150px;background: darkcyan; color: white;border-radius: 10px">
+                                                    <a href="17130008_design_lab4.rar" download="17130008_design_lab4.rar" style="color: white">Download All</a>
 
                                                 </button>
+
+
+
+
 
 
 
                                             </div>
                                             <div role="tabpanel" class="tab-pane fade " id="implement1">
                                                 <h3 style="font-family: Arial">Implement</h3>
+                                                <div class="container_lab2" style="width: 950px;background: white">
+                                                    <div class="content1" style="background: #EAB1BB; color: #A66B77; height: 80px;width: 950px;
+                                                                    padding-left: 50px; padding-top: 20px">
+                                                        <h2 style="float: left"> Shop Order Album</h2>
+                                                        <div class="menu_ex" style="float: right;">
+                                                            <ul>
+                                                                <li style=" margin-bottom: 0px"><a class="active" href="#home">Trang chủ</a></li>
+                                                                <li style=" margin-bottom: 0px;margin-left: 20px;"><a href="#news">Sản phẩm</a></li>
+                                                                <li style=" margin-bottom: 0px;margin-left: 20px;"><a href="#contact">Liên hệ</a></li>
+                                                                <li style=" margin-bottom: 0px;margin-left: 20px;"><a href="#about">Giới thiệu</a></li>
+                                                            </ul>
+                                                        </div>
+
+
+
+                                                    </div>
+                                                    <div class="conten2" style="padding-top: 30px; background: white; padding-top: 30px; width: 950px;">
+                                                        <div class="timkiem" style="float: left">
+                                                            <input id="nhap" type="text" placeholder="Nhập để tìm kiếm..." style="float: left; margin-left: 150px;width: 300px;background: #F2F1F1;border: none" >
+                                                            <button id="bt_timkiem" type="button" style=" margin-left: 40px;height: 35px; background:#C4C4C4; color: black"> Tìm kiếm </button>
+                                                            <div class="select" style="width: 50px; margin-left: 600px;margin-top: -30px; ">
+                                                                <select style="height: 35px; width: 150px">
+                                                                    <option value=""> --Chọn--</option>
+                                                                    <option value="hanquoc"> Hàn Quốc</option>
+                                                                    <option value="vietnam"> Việt Nam  </option>
+                                                                    <option value="au-mi"> Âu Mĩ </option>
+
+                                                                </select>
+
+                                                            </div>
+                                                            <div class="hottag" style="margin-top: 30px; margin-left: 50px">
+                                                                <span style="color: #0b0b0b">Tìm kiếm nhiều:</span>
+                                                                <button class="taghot"> Girl' Generatiion </button>
+                                                                <button class="taghot"> Twice</button>
+                                                                <button class="taghot"> Red Velvet</button>
+                                                                <button class="taghot"> Black Pink</button>
+                                                                <button class="taghot"> Iz*one</button>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="giohang" style="width: 300px;margin-left: 790px">
+                                                            <button id="gio" type="button" style="background:#EAB1BB; width: 150px;height: 70px;
+                                              color:#05328A; margin-bottom: 10px; border-radius: 5px;font-size: 20px "> Giỏ hàng </button>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="content3" style="width: 950px;background: white;padding-top: 20px;margin-bottom: 20px">
+                                                        <div class="image_lab2" style="width: 550px;color: black;padding-left: 50px ">
+
+
+                                                            <img src="images/1301258387.g_400-w_g.jpg" style="width: 300px; height: 300px;"/>
+
+                                                        </div>
+                                                        <div class="tittle" style="float: right;margin-top: -230px;color: black;width: 500px;padding-right: 50px">
+
+                                                            <span class="tittle" style="font-size: 20px;font-weight: bold"> Tên Sản Phẩm: YOONA - A WALK TO REMEMBER (Spencial Album)</span>
+                                                            <br>
+
+                                                            <span>
+                                                          * Giá bán: 400,000đ <br>
+                                                          * Mã sản phẩm: SMK1069 <br>
+                                                          * Ngày phát hành: 31/5/2019<br>
+                                                          * Số lượng:
+                                                            </span>
+                                                            <div class="default1" style="width: 50px;margin-top: -30px;margin-left: 100px;">
+                                                                <input class="soluong" type="text" value="1" style="width: 45px; text-align: center">
+
+                                                            </div>
+                                                            <div class="xemthem1" style="font-size: 18px;margin: 10px;"  >
+                                                                <a href="https://www.musicplaza.com/blogs/news/snsd-yoona-special-album-a-walk-to-remember" target="_blank" style=" color: blue"> + Xem thêm...</a>
+
+                                                            </div>
+                                                            <div class="button" style="float: right;margin-top: -150px;margin-right: 50px" >
+                                                                <button class="muangay" type="button" style="background: #3BA8F7;color: #DEE1E5"> Mua ngay </button> <br> <br>
+                                                                <button class="themvao" type="button" style="background: #3BA8F7;color: #DEE1E5"> Thêm vào giỏ hàng </button>
+                                                            </div>
+
+
+                                                        </div>
+
+
+
+                                                    </div>
+
+                                                    <div class="content4" style="width: 950px;background: white;padding-top: 20px;margin-bottom: 20px">
+                                                        <div class="image_lab2" style="width: 550px;color: black;padding-left: 50px ">
+
+
+                                                            <img src="images/fspre-500x500.jpg" style="width: 300px; height: 300px;"/>
+
+                                                        </div>
+                                                        <div class="tittle" style="float: right;margin-top: -230px;color: black;width: 500px;padding-right: 50px">
+
+                                                            <span class="tittle" style="font-size: 20px;font-weight: bold"> Tên Sản Phẩm: TWICE 8th Mini Album - Feel Special (Random ver.)</span>
+                                                            <br>
+
+                                                            <span>
+                                                          * Giá bán: 400,000đ <br>
+                                                          * Mã sản phẩm: TW2512 <br>
+                                                          * Ngày phát hành: 04/9/2019<br>
+                                                          * Số lượng:
+                                                            </span>
+
+                                                            <div class="default2" style="width: 50px;margin-top: -30px;margin-left: 100px;">
+                                                                <input class="soluong" type="text" value="1" style="width: 45px; text-align: center">
+
+                                                            </div>
+                                                            <div class="xemthem2" style="font-size: 18px;margin: 10px">
+                                                                <a target="_blank" href="https://www.musicplaza.com/products/%ED%8A%B8%EC%99%80%EC%9D%B4%EC%8A%A4-twice-8th-mini-album-feel-special" style=" color: blue"> + Xem thêm...</a>
+
+                                                            </div>
+                                                            <div class="button" style="float: right;margin-top: -150px;margin-right: 50px" >
+                                                                <button class="muangay" type="button" style="background: #3BA8F7;color: #DEE1E5"> Mua ngay </button> <br> <br>
+                                                                <button class="themvao" type="button" style="background: #3BA8F7;color: #DEE1E5"> Thêm vào giỏ hàng </button>
+                                                            </div>
+
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="content5" style="width: 950px;background: white;padding-top: 20px;margin-bottom: 20px">
+                                                        <div class="image_lab2" style="width: 550px;color: black;padding-left: 50px ">
+
+
+                                                            <img src="images/aimg2436-1512287847651.jpg" style="width: 300px; height: 300px;"/>
+
+                                                        </div>
+                                                        <div class="tittle" style="float: right;margin-top: -230px;color: black;width: 500px;padding-right: 50px">
+
+                                                            <span class="tittle" style="font-size: 20px;font-weight: bold"> Tên Sản Phẩm: Mỹ Tâm Mini Album - Tâm Vol 9</span>
+                                                            <br>
+
+                                                            <span>
+                                                          * Giá bán: 300,000đ <br>
+                                                          * Mã sản phẩm: MT3019 <br>
+                                                          * Ngày phát hành: 30/8/2019<br>
+                                                          * Số lượng:
+                                                            </span>
+
+                                                            <div class="default3" style="width: 50px;margin-top: -30px;margin-left: 100px;">
+                                                                <input class="soluong" type="text" value="1" style="width: 45px; text-align: center">
+
+                                                            </div>
+                                                            <div class="xemthem3" style="font-size: 18px;margin: 10px">
+                                                                <a target="_blank" href="https://www.discogs.com/M%E1%BB%B9-T%C3%A2m-T%C3%A2m-9-M%E1%BB%B9-T%C3%A2m-Vol9/release/11607702" style=" color: blue"> + Xem thêm...</a>
+
+                                                            </div>
+                                                            <div class="button" style="float: right;margin-top: -150px;margin-right: 50px" >
+                                                                <button class="muangay" type="button" style="background: #3BA8F7;color: #DEE1E5"> Mua ngay </button> <br> <br>
+                                                                <button class="themvao" type="button" style="background: #3BA8F7;color: #DEE1E5"> Thêm vào giỏ hàng </button>
+                                                            </div>
+
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="content6" style="width: 950px;background: white;padding-top: 20px;margin-bottom: 20px">
+                                                        <div class="image_lab2" style="width: 550px;color: black;padding-left: 50px ">
+
+
+                                                            <img src="images/-set-izone-2nd-mini-album-heartiz-set-ver-2cd-2poster.jpg" style="width: 300px; height: 400px;"/>
+
+                                                        </div>
+                                                        <div class="tittle" style="float: right;margin-top: -280px;color: black;width: 500px;padding-right: 50px">
+
+                                                            <span class="tittle" style="font-size: 20px;font-weight: bold"> Tên Sản Phẩm: IZ*ONE 2nd Mini Album - HEART*IZ (Violeta ver. )</span>
+                                                            <br>
+
+                                                            <span>
+                                                          * Giá bán: 365,000đ <br>* Mã sản phẩm: PD48 <br>* Ngày phát hành: 02/4/2019<br>* Số lượng:
+                                                            </span>
+
+                                                            <div class="default4" style="width: 50px;margin-top: -30px;margin-left: 100px;">
+                                                                <input class="soluong" type="text" value="1" style="width: 45px; text-align: center">
+
+                                                            </div>
+                                                            <div class="xemthem4" style="font-size: 18px;margin: 10px">
+                                                                <a target="_blank" href="https://www.musicplaza.com/products/%EC%95%84%EC%9D%B4%EC%A6%88%EC%9B%90-iz-one-2nd-mini-album-heart-iz" style=" color: blue"> + Xem thêm...</a>
+
+                                                            </div>
+                                                            <div class="button" style="float: right;margin-top: -150px;margin-right: 50px" >
+                                                                <button class="muangay" type="button" style="background: #3BA8F7;color: #DEE1E5"> Mua ngay </button> <br> <br>
+                                                                <button class="themvao" type="button" style="background: #3BA8F7;color: #DEE1E5"> Thêm vào giỏ hàng </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
 
 
@@ -125,6 +338,7 @@
             </div>
         </div>
     </div>
+
 </div>
 
 

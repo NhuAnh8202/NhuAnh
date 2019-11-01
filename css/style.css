@@ -10098,3 +10098,40 @@ a:hover,a:focus{
   cursor: pointer;
 
 }
+.menu_ex ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EAB1BB;
+}
+
+.menu_ex li {
+  float: left;
+}
+
+.menu_ex li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu_ex li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.menu_ex .active {
+  background-color: #2b222a;
+}
+.hottag .taghot:hover{
+  background: #2d527d;
+
+}
+.hottag .taghot {
+  margin-left: 20px;
+  background: #d6d3d4ba;
+  border-radius: 5px;
+ color: #962d40;
+}
