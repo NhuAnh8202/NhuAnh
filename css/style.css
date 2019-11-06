@@ -9112,7 +9112,7 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 #container1 {
-  width: 920px;
+  width: 970px;
   height: 465px;
   background: #C4C4C4;
 
@@ -9171,6 +9171,16 @@ textarea.form-control {
 #container1 #content3 .row1 {
   color: black;
   font-family: Arial;
+
+}
+.row1_colum0{
+  float: left;
+  border: 1px black solid;
+  width: 50px;
+  height: 65px ;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
 
 }
 .row1_colum1{
@@ -9240,12 +9250,23 @@ textarea.form-control {
   color: black;
 
 }
+.row2_colum0{
+  float: left;
+  border: 1px black solid;
+  width: 50px;
+  height: 50px ;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+
+}
 .row2_colum1{
   float: left;
   border: 1px black solid;
   width: 230px;
   height: 50px ;
-  text-align: center;
+  padding-left: 20px;
+
   padding-top: 10px;
   font-size: 18px;
 
@@ -9321,12 +9342,22 @@ textarea.form-control {
   color: black;
 
 }
+.row3_colum0{
+  float: left;
+  border: 1px black solid;
+  width: 50px;
+  height: 50px ;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+
+}
 .row3_colum1{
   float: left;
   border: 1px black solid;
   width: 230px;
   height: 50px ;
-  text-align: center;
+padding-left: 20px;
   padding-top: 10px;
   font-size: 18px;
 
@@ -9403,12 +9434,22 @@ textarea.form-control {
   color: black;
 
 }
+.row4_colum0{
+  float: left;
+  border: 1px black solid;
+  width: 50px;
+  height: 50px ;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+
+}
 .row4_colum1{
   float: left;
   border: 1px black solid;
   width: 230px;
   height: 50px ;
-  text-align: center;
+  padding-left: 20px;
   padding-top: 10px;
   font-size: 18px;
 
@@ -9483,6 +9524,16 @@ textarea.form-control {
 }
 .row5{
   color: black;
+
+}
+.row5_colum0{
+  float: left;
+  border: 1px black solid;
+  width: 50px;
+  height: 50px ;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
 
 }
 .row5_colum1{
